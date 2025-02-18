@@ -21,7 +21,7 @@ stage('Checkout') <br>
 steps <br>
 {<br>
 // Checkout code from Git
-git url: 'https://github.com/Sumit-adeppa/Library.git', branch: 'main'
+git url: 'https://github.com/Sumit-adeppa/Automated-CI-CD-Pipeline.git', branch: 'main'<br>
 }<br>
 }<br>
 stage('Build')<br> {<br> steps<br> {<br>
@@ -57,19 +57,19 @@ echo 'Pipeline failed!'<br>
 }<br>
 }<br>
 
-STEP 4: Configure Git Repository:
-Replace the placeholder Git repository URL (https://github.com/Sumit-adeppa/Library.git) with your actual repository URL
+STEP 4: Configure Git Repository:<br>
+Replace the placeholder Git repository URL (https://github.com/Sumit-adeppa/Automated-CI-CD-Pipeline.git) with your actual repository URL<br>
  
  
-STEP 5: Save the Pipeline:
-After writing the script, click Save.
+STEP 5: Save the Pipeline:<br>
+After writing the script, click Save.<br>
 
 
-STEP 6: Run the Pipeline:
-•	Go back to the Jenkins dashboard and select your newly created pipeline job.
-•	Click Build Now to trigger the pipeline.
+STEP 6: Run the Pipeline:<br>
+•	Go back to the Jenkins dashboard and select your newly created pipeline job.<br>
+•	Click Build Now to trigger the pipeline.<br>
 
 
-STEP 7: Check Pipeline Execution:
-•	As the pipeline runs, you’ll be able to see each stage (Checkout, Build, Test, Deploy) being executed.
-•	You can view the progress by clicking on the Build Number in the build history and selecting Console Output.
+STEP 7: Check Pipeline Execution:<br>
+•	As the pipeline runs, you’ll be able to see each stage (Checkout, Build, Test, Deploy) being executed.<br>
+•	You can view the progress by clicking on the Build Number in the build history and selecting Console Output.<br>
