@@ -3,7 +3,7 @@ Built an end-to-end CI/CD pipeline to automate software integration, testing, an
 <b>Key Contributions & Impact:</b> <br>
 • Automated build, test, and deployment process, reducing deployment time by 35%. <br>
 • Integrated version control enhancing code consistency across environments. <br>
-• Minimized manual errors and ensured faster release cycles, improving team efficiency by 25%.<br><<br>
+• Minimized manual errors and ensured faster release cycles, improving team efficiency by 25%.<br><br>
 <b>About Setup of Pipeline</b> <br>
 Jenkins Job Creation: Implementing Version Control in Your CI/CD Pipeline
 
